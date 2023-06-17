@@ -42,6 +42,7 @@
 }
 
 .skill__name {
+  color: #110b32;
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
@@ -55,7 +56,7 @@
 }
 
 .skill__bar {
-  background-color: #f1f1f1;
+  background-color: #110b32;
 }
 
 .skills__percentage {
@@ -80,4 +81,27 @@
 .devOps {
   width: 25%;
   background-color: rgb(255, 209, 92);
+}
+
+.about__boxes {
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 1.875rem;
+  margin-top: 4.25rem;
+}
+
+.about.box {
+  display: flex;
+  margin-top: 2rem;
+  column-gap: 1.5rem;
+}
+
+.about__icon {
+  font-size: var(--h1-font-size);
+  color: #f1f1f1;
+}
+.about__title {
+  font-size: 1.875rem;
+}
+.about__subtitle {
+  color: #f1f1f1;
 }

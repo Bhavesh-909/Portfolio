@@ -2,6 +2,7 @@ import React from 'react';
 import "./about.css";
 import "../../index.css"
 import me from "../../assets/me-2.png"
+import AboutBox from './aboutBox';
 
 const about = () => {
   return (
@@ -75,7 +76,7 @@ const about = () => {
 
             <div className="skills__data">
               <div className="skill__titles">
-                <h3 className="skill__name">DevOps (be) </h3>
+                <h3 className="skill__name">DevOps (beginner) </h3>
                 <span className="skill__number">25%</span>
               </div>
               <div className="skill__bar">
@@ -87,7 +88,9 @@ const about = () => {
           
             </div>
 
-          </div>
+      </div>
+
+      <AboutBox/>
     </section>
   )
 }
