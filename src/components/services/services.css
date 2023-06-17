@@ -1,0 +1,37 @@
+.services__container {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.875rem;
+}
+.services__card {
+  padding: 1rem;
+  text-align: center;
+  border-radius: var(--border-radius);
+  background-color: var(--container-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.services__card:hover {
+  transform: translateY(-10px);
+}
+
+.services__card:nth-child(1) {
+  background-color: rgb(104, 104, 133);
+  box-shadow: 0 0 10px rgba(104, 104, 133, 0.5);
+}
+.services__card:nth-child(2) {
+  background-color: rgb(98, 139, 117);
+  box-shadow: 0 0 10px rgba(98, 139, 117, 0.75);
+}
+.services__card:nth-child(3) {
+  background-color: #94c1d7;
+  box-shadow: 0 0 10px rgba(148, 193, 215, 0.5);
+}
+.services__img {
+  margin-bottom: 1.25rem;
+}
+
+.services__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+  color: var(--body-color);
+}
