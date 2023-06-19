@@ -38,7 +38,7 @@ const sidebar = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#blog" className="nav__link">
+              <a href="#" className="nav__link">
                 <i className="icon-note"></i>
               </a>
             </li>
