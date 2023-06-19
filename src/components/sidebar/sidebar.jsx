@@ -33,12 +33,12 @@ const sidebar = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#portfolio" className="nav__link">
+              <a href="#blog" className="nav__link">
                 <i className="icon-layers"></i>
               </a>
             </li>
             <li className="nav__item">
-              <a href="#" className="nav__link">
+              <a href="#blog" className="nav__link">
                 <i className="icon-note"></i>
               </a>
             </li>
