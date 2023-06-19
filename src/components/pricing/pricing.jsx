@@ -3,7 +3,9 @@ import "./pricing.css"
 
 const pricing = () => {
   return (
-    <div>pricing</div>
+    <section className="pricing container section">
+      
+    </section>
   )
 }
 
