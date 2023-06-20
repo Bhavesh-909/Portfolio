@@ -33,7 +33,7 @@ const sidebar = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#blog" className="nav__link">
+              <a href="#portfolio" className="nav__link">
                 <i className="icon-layers"></i>
               </a>
             </li>
@@ -43,7 +43,7 @@ const sidebar = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="" className="nav__link">
+              <a href="#Contact" className="nav__link">
                 <i className="icon-bubble"></i>
               </a>
             </li>

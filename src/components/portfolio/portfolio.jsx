@@ -15,7 +15,7 @@ const Portfolio = () => {
   setItems(updatedItems);
 }
   return (
-    <section className="work container section" id="work">
+    <section className="work container section" id="portfolio">
       <h2 className="section__title">Projects</h2>
       <div className="project__filters">
         <span className="project__item" onClick={()=>setItems(Menu)}>All Projects</span>

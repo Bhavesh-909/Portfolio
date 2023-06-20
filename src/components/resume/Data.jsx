@@ -7,7 +7,7 @@ const data = [
     icon: "icon-graduation",
     year: "2019 - present",
     title: "B.Tech in Information Technology",
-    desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
+    desc: "I'm pursuing my B.Tech in Information Technology from Government College of Engineering, Amravati.",
   },
   {
     id: 2,
@@ -15,15 +15,15 @@ const data = [
     icon: "icon-graduation",
     year: "2018 - 2021",
     title: "Diploma in Electrical Engineering",
-    desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
+    desc: "I completed my diploma in Electrical engineering from Government Polytechnic, Jalgaon.",
   },
   {
     id: 3,
     category: "experience",
     icon: "icon-briefcase",
-    year: "2019 - present",
-    title: "Web Designer",
-    desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
+    year: "2023",
+    title: "Intern - Persistent Systems",
+    desc: "I had the privilege of being selected for the prestigious Persistent Systems Martin Internship Program.",
   },
 ];
 
