@@ -17,7 +17,7 @@ const home = () => {
         <h1 className="home__name">Bhavesh Chaudhari</h1>
         <span className="home__education">I'm a full-stack web developer</span>
         <HeaderSocials />
-        <a href="#contact" className="btn">Let's Talk</a>
+        <a href="#Contact" className="btn">Let's Talk</a>
         <ScrollDown />
 
         <Shapes />

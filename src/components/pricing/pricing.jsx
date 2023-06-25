@@ -17,8 +17,8 @@ const pricing = () => {
           <p className="pricing__support"> 
             E-mail  support</p>
           <h3 className="price">
-            <em>₹</em> 16,383/ 
-            <span>Project</span>
+            <em>₹</em> 820/ 
+            <span>Hour</span>
           </h3>
           <a href="" className="btn">Get Started</a>
         </div>
@@ -43,7 +43,7 @@ const pricing = () => {
           <p className="pricing__support">Online Meet + Email Support</p>
           <h3 className="price">
             <em>₹</em> 53,244/ 
-            <span>Project</span>
+            <span>Hour</span>
           </h3>
           <a href="" className="btn">Get Started</a>
         </div>

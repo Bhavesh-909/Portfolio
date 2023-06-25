@@ -18,7 +18,7 @@ const data = [
     title: "Jaydeep Gedam",
     subtitle: "Student and Full-Stack Developer",
     comment:
-      "I learn a lot from Bhavesh and enjoy working with him.I'm a full-stack web developer and Bhavesh's project partner for the academic project Nayaan. ",
+      "I learn a lot from Bhavesh and enjoy working with him.I'm Bhavesh's project partner for the academic project Nayaan. ",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const data = [
     title: "Sakshi Khadilkar",
     subtitle: "Student and expert programmer",
     comment:
-      'Working with Bhavesh is fun, and I learn so much.I am a competitive expert programmer  on Leetcode. In the academic project "Nayaan," Bhavesh and I are project partners. It has always been enjoyable to work with Bhavesh. ',
+      'Working with Bhavesh is fun, and I learn so much. In the academic project "Nayaan," Bhavesh and I are project partners. It has always been enjoyable to work with Bhavesh. ',
   },
 ];
 

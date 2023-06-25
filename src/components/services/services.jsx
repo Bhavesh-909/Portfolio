@@ -12,21 +12,21 @@ const data = [
     image: Image1,
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "I offer full stack web development services, specializing in creating dynamic user interfaces, robust back-end systems, and seamless integrations for optimal web application functionality and user experience. Let's collaborate to bring your ideas to life!",
   },
   {
     id: 2,
     image: Image2,
     title: "UI/UX design",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "I provide UI/UX design services, crafting visually appealing and intuitive user interfaces for web and mobile applications. Let's collaborate to create engaging designs that enhance user experience and drive success for your digital products.",
   },
   {
     id: 3,
     image: Image3,
     title: "DevOps",
     description:
-      "I'm very passionate about learning DevOps, I am actively searching for internship in DevOps",
+      "I'm very interested in learning DevOps, and I'm actively looking for a DevOps internship.",
   },
 ];
 
