@@ -2,6 +2,7 @@ import React from 'react';
 import "./sidebar.css";
 import "../../index.css";
 import Logo from "../../assets/Logo.svg";
+import codesnip from "../../assets/codesnip.svg";
 
 const sidebar = () => {
   return (
@@ -10,8 +11,11 @@ const sidebar = () => {
         <img src={Logo} alt="Logo" />
       </a>
       <nav className='nav'>
+        
         <div className='nav__menu'>
+          {/* <img src={codesnip} alt='' id='codeSnip'/> */}
           <ul className="nav__list">
+            
             <li className="nav__item">
               <a href="#home" className="nav__link">
                 <i className="icon-home"></i>

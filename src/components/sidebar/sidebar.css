@@ -1,6 +1,6 @@
 .aside {
   position: fixed;
-  left: 0;
+  left: 0%;
   top: 0;
   background: hsl(240, 4%, 10%);
   border-right: 1px solid hsl(240, 1%, 20%);
@@ -12,14 +12,18 @@
   justify-content: space-between;
   z-index: 10;
 }
+.nav {
+  margin-top: -2rem;
+}
 .nav__logo {
+  padding-right: 0.5rem;
   transform: translateX(-35px);
   width: 105px;
 }
 .nav__list {
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
+  row-gap: 2rem;
 }
 .nav__link {
   font-size: 1.5rem;
@@ -37,3 +41,8 @@
   transform: rotate(-180deg);
   writing-mode: vertical-rl;
 }
+/* .codeSnip {
+  display: flex;
+  position: absolute;
+  z-index: 5;
+} */

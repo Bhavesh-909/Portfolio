@@ -2,6 +2,7 @@ import React from 'react';
 import "./about.css";
 import "../../index.css"
 import me from "../../assets/me-2.png"
+import Resume from "../../assets/Resume.pdf"
 import AboutBox from './aboutBox';
 
 const about = () => {
@@ -18,7 +19,7 @@ const about = () => {
                     <p className="about__description">
                         I am Bhavesh Chaudhari, an Indian full-stack web developer with a passion for DevOps. I am also skilled in UI/UX design, and I am always eager to share my knowledge and enthusiasm with others.
                     </p>
-                    <a href="" className="btn">Download CV</a>
+                    <a href="" className="btn" download={Resume} >Download CV</a>
           </div>
 
 

@@ -35,9 +35,11 @@
   transition: 0.2s;
   opacity: 0;
 }
-
+.Image-4 {
+  transform: scale(1.1);
+}
 .project__card:hover .project__mask {
-  opacity: 0.9;
+  opacity: 0.92;
 }
 
 .project__category {

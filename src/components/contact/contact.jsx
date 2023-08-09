@@ -1,6 +1,7 @@
 import React from 'react';
 import "./contact.css";
 
+
 const contact = () => {
   return (
     <section className="contact container section" id="Contact">
@@ -14,30 +15,35 @@ const contact = () => {
           </p>
         </div>
 
-          <form className="contact__form">
+        <form className="contact__form" action="https://formspree.io/f/xoqoajbe" method='POST'>
             <div className="contact__form-group">
                 
                 <div className="contact__form-div">
-                  <input type="text" className="contact__form-input"
+              <input type="text"
+                className="contact__form-input"
+                name='username'
                   placeholder="Insert your name "/>
                 </div>
 
 
                 <div className="contact__form-div">
-                  <input type="email" className="contact__form-input"
-                  placeholder="Insert your email "/>
+              <input
+                type="email"
+                name='email'
+                className="contact__form-input"
+                placeholder="Insert your email " />
                 </div>
             </div>
 
 
                 <div className="contact__form-div">
-                  <input type="text" className="contact__form-input"
+                  <input type="text" className="contact__form-input" name='message'
                   placeholder="Insert your subject "/>
                 </div>
 
                 <div className="contact__form-div  contact__form-area" >
                   <textarea
-                    name="" id=""
+                    name="message" id=""
                     cols="30"
                     rows="10"
                     className="contact__form-input"

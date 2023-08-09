@@ -54,3 +54,7 @@
 .blog__dot {
   font-weight: var(--font-bold);
 }
+
+.section__title {
+  color: var(--container-color);
+}
